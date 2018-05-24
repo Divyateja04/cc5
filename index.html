@@ -22,6 +22,7 @@
 	<!-- Font Google -->
 	<link href="https://fonts.googleapis.com/css?family=Kavivanar|Lobster" rel="stylesheet">
 
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
@@ -40,47 +41,13 @@
 	</header>
 
 	<!-- MAKE SURE TO ADD THE LINK TO A VIDEO -->
-	<iframe src="https://www.youtube.com/embed/5F7c28Ye-Fg" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/5F7c28Ye-Fg" allow="autoplay; encrypted-media" allowfullscreen class="iframeclass"></iframe>
 
-	<div class="Allcards">
-		<div class="card" style="width: 18rem;">
-		  <img class="card-img-top" src="Assets/Images/Events/3.jpg" alt="Card image cap">
-		  <div class="card-body">
-		    <h5 class="card-title">Event Title</h5>
-		    <hr>
-		    <h4 class="card-title">Event Date</h4>
-		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    quis nostrud exercitation ulla.</p>
-			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-			  Know More
-			</button>
 
-			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			          <span aria-hidden="true">&times;</span>
-			        </button>
-			      </div>
-			      <div class="modal-body">
-			        ...
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        <button type="button" class="btn btn-primary">Save changes</button>
-			      </div>
-			    </div>
-			  </div>
-		</div>	    
-		</div>
-	</div>
-		<div class="card" style="width: 18rem;">
-			  <img class="card-img-top" src="Assets/Images/Events/2.jpg" alt="Card image cap">
+	<div class="imagebgcards">
+		<div class="Allcards">
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="Assets/Images/Events/3.jpg" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Event Title</h5>
 			    <hr>
@@ -105,22 +72,104 @@
 				      </div>
 				      <div class="modal-body">
 				        <ul>
-				        	<li>Date :</li>
-				        	<li>Venue :</li>
-				        	<li>About....</li>
-				        </ul>
-				      </div>
+					        <li>Date :</li>
+					        <li>Venue :</li>
+					        <li>About....</li>
+					      </ul>				      
+					  </div>
 				      <div class="modal-footer">
 				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-outline-danger">Sign Up</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
 				      </div>
 				    </div>
 				  </div>
 			</div>	    
 			</div>
 		</div>
-		<div class="card" style="width: 18rem;">
-			  <img class="card-img-top" src="Assets/Images/Events/1.jpg" alt="Card image cap">
+			<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="Assets/Images/Events/2.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Event Title</h5>
+				    <hr>
+				    <h4 class="card-title">Event Date</h4>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ulla.</p>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+					  Know More
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <ul>
+					        	<li>Date :</li>
+					        	<li>Venue :</li>
+					        	<li>About....</li>
+					        </ul>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-outline-danger">Sign Up</button>
+					      </div>
+					    </div>
+					  </div>
+				</div>	    
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="Assets/Images/Events/1.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Event Title</h5>
+				    <hr>
+				    <h4 class="card-title">Event Date</h4>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ulla.</p>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+					  Know More
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <h4>
+					        	<ul>
+					        		<li>Date :</li>
+					        		<li>Venue :</li>
+					        		<li>About....</li>
+					        	</ul>
+					        </h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-outline-primary">Sign Up</button>
+					      </div>
+					    </div>
+					  </div>
+				</div>	    
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="Assets/Images/Events/3.jpg" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Event Title</h5>
 			    <hr>
@@ -144,164 +193,123 @@
 				        </button>
 				      </div>
 				      <div class="modal-body">
-				        <h4>
-				        	<ul>
-				        		<li>Date :</li>
-				        		<li>Venue :</li>
-				        		<li>About....</li>
-				        	</ul>
-				        </h4>
+				        ...
 				      </div>
 				      <div class="modal-footer">
 				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-outline-primary">Sign Up</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
 				      </div>
 				    </div>
 				  </div>
 			</div>	    
 			</div>
 		</div>
-		<div class="card" style="width: 18rem;">
-		  <img class="card-img-top" src="Assets/Images/Events/3.jpg" alt="Card image cap">
-		  <div class="card-body">
-		    <h5 class="card-title">Event Title</h5>
-		    <hr>
-		    <h4 class="card-title">Event Date</h4>
-		    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    quis nostrud exercitation ulla.</p>
-			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-			  Know More
-			</button>
+			<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="Assets/Images/Events/2.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Event Title</h5>
+				    <hr>
+				    <h4 class="card-title">Event Date</h4>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ulla.</p>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+					  Know More
+					</button>
 
-			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			          <span aria-hidden="true">&times;</span>
-			        </button>
-			      </div>
-			      <div class="modal-body">
-			        ...
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        <button type="button" class="btn btn-primary">Save changes</button>
-			      </div>
-			    </div>
-			  </div>
-		</div>	    
-		</div>
-	</div>
-		<div class="card" style="width: 18rem;">
-			  <img class="card-img-top" src="Assets/Images/Events/2.jpg" alt="Card image cap">
-			  <div class="card-body">
-			    <h5 class="card-title">Event Title</h5>
-			    <hr>
-			    <h4 class="card-title">Event Date</h4>
-			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			    quis nostrud exercitation ulla.</p>
-				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-				  Know More
-				</button>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <ul>
+					        	<li>Date :</li>
+					        	<li>Venue :</li>
+					        	<li>About....</li>
+					        </ul>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-outline-danger">Sign Up</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>	    
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="Assets/Images/Events/1.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Event Title</h5>
+				    <hr>
+				    <h4 class="card-title">Event Date</h4>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ulla.</p>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+					  Know More
+					</button>
 
-				<!-- Modal -->
-				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				  <div class="modal-dialog" role="document">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
-				      </div>
-				      <div class="modal-body">
-				        <ul>
-				        	<li>Date :</li>
-				        	<li>Venue :</li>
-				        	<li>About....</li>
-				        </ul>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-outline-danger">Sign Up</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>	    
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <h4>
+					        	<ul>
+					        		<li>Date :</li>
+					        		<li>Venue :</li>
+					        		<li>About....</li>
+					        	</ul>
+					        </h4>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-outline-primary">Sign Up</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>	    
+				</div>
 			</div>
 		</div>
-		<div class="card" style="width: 18rem;">
-			  <img class="card-img-top" src="Assets/Images/Events/1.jpg" alt="Card image cap">
-			  <div class="card-body">
-			    <h5 class="card-title">Event Title</h5>
-			    <hr>
-			    <h4 class="card-title">Event Date</h4>
-			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			    quis nostrud exercitation ulla.</p>
-				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-				  Know More
-				</button>
-
-				<!-- Modal -->
-				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				  <div class="modal-dialog" role="document">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">More Details</h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
-				      </div>
-				      <div class="modal-body">
-				        <h4>
-				        	<ul>
-				        		<li>Date :</li>
-				        		<li>Venue :</li>
-				        		<li>About....</li>
-				        	</ul>
-				        </h4>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-outline-primary">Sign Up</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>	    
-			</div>
-		</div>
-	</div>
-	<footer>
-		<div class="overlaycontainer">
-			<img src="Assets/Images/Nature/1.jpg" alt="Avatar" class="image">
-			<div class="middle">
-				<div class="overlaytext">
-					Reach Us Through :
-					<h2>
-						Twitter : @thriving_cities
-					</h2>
-					<h2>
-						Facebook : thrivingcities
-					</h2>
-					Subscribe To Our Newsletter..<br> Receive Updates On these Events
-					<a href="http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a"><i style="font-size:3em" class="far fa-newspaper"></i></a>
-					<br>
-					&copy; All Rights Reserved.
-					<br>
-					<img src="Assets/Images/Logo/TC_Mark_Gold_RGB.png">
-					A Thriving Cities Initiative
-					<img src="Assets/Images/Logo/TC_Mark_Black_RGB.png">
+		<footer>
+			<div class="overlaycontainer">
+				<img src="Assets/Images/Nature/1.jpg" alt="Avatar" class="image">
+				<div class="middle">
+					<div class="overlaytext">
+						Reach Us Through :
+						<h2>
+							Twitter : @thriving_cities
+						</h2>
+						<h2>
+							Facebook : thrivingcities
+						</h2>
+						Subscribe To Our Newsletter..<br> Receive Updates On these Events Through Our<br>
+						<a href="http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a"><i style="font-size:3em" class="far fa-newspaper"></i></a>
+						<br>
+						&copy; All Rights Reserved 2018
+						<br>
+						<img src="Assets/Images/Logo/TC_Mark_Gold_RGB.png">
+						A Thriving Cities Initiative
+						<img src="Assets/Images/Logo/TC_Mark_Black_RGB.png">
+			  		</div>
 		  		</div>
-	  		</div>
+			</div>
 		</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
