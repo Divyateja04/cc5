@@ -1,18 +1,15 @@
-<<<<<<< HEAD
-=======
 var date = new Date;
 var time = date.getHours();
-
+msg =document.getElementById("welcomegreet");
+welcome();
 function welcome() {
 	if (time < 12) {
-		message = "A Very Warm Good Morning"
+		message = "A Very Warm Good Morning !"
 	}else if (time > 12 && time < 4) {
-		message = "A Very Warm Good After Noon"
+		message = "A Very Warm Good After Noon !"
 	}else{
-		message = "A Very Warm Good Evening"
+		message = "A Very Warm Good Evening !"
 	}
-	document.getElementById("Welcomegreet").createTextNode(message);	
-
+	msg.textContent = message;
+	welcome();
 }
-welcome();
->>>>>>> 11962f41994ecdce37d3b98e7ac1443fe92fb1b3
