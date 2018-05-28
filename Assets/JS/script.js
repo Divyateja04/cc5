@@ -14,30 +14,269 @@ function welcome() {
 	msg.textContent = message;
 }
 
-//setInterval(timer("Dec 1 ,2018 00:00:00","event1"),1000);
-setInterval(timer("Jun 10,2018 00:00:00","event1"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event2"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event3"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event4"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event5"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event6"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event7"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event8"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event9"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event10"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event11"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
-setInterval(timer("Jun 10,2018 00:00:00","event12"),1000);//Change with date as shown above FORMAT- Month Date,Year hh:mm:ss
 
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event1").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event1").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event2").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event2").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event3").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event3").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event4").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event4").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event5").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event5").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event6").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event6").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event7").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event7").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event8").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event8").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event9").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event9").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event10").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event10").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event11").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event11").textContent = "EXPIRED";
+  }
+}, 1000);
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("event12").textContent = "The Event Begins In " + days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("event12").textContent = "EXPIRED";
+  }
+}, 1000);
 
-
-function timer(given,id){
-	var tilltime = new Date(given).getTime();
-	var now = new Date().getTime();
-	var distance = tilltime - now;
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
- 	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
- 	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
- 	console.log(days + "Days " + hours + "Hours " + minutes + "Minutes ");
- 	document.getElementById(id).textContent = "Event Begins in " + days + " Days " + hours + " Hours " + minutes + " Minutes " + seconds + "  Seconds " ;
-}
