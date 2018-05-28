@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>Thriving Cities | Memphis</title>
-	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 	
 	<!-- Metas... -->
 	<meta charset="utf-8">
@@ -16,15 +15,17 @@
 	<!-- Linking Bootstrap and CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
-	<link rel="stylesheet" type="text/css" href="Assets/CSS/style1.css">
+	<link rel="stylesheet" href="Assets/CSS/Footer-white.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
+	<!-- LINKING FAVICON -->
+	<link rel="shortcut icon" href="http://thrivingcities.com/sites/all/themes/thrivingcities/favicon.ico" type="image/vnd.microsoft.icon">
+
 	<!-- Font Google -->
-	<link href="https://fonts.googleapis.com/css?family=Kavivanar|Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kavivanar|Lobster|Indie+Flower|Permanent+Marker" rel="stylesheet">
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -43,20 +44,32 @@
 			</div>
 			<hr>
 			<div class="row-head">
-				<div class="col-lg-12 my-auto animated bounceInRight"><h2>What We could Have , You can also Have<br>( I Am Talking About Nature )</h2></div>
+				<div class="col-lg-12 my-auto animated bounceInRight"><h2>What does it mean and take to thrive</h2></div>
 			</div>
 		</div>
 	</header>
+	<br>
+	<div class="maincontent">
+		<img src="Assets/Images/Logo/TC_Mark_Gold_RGB.png" class="infoimg">
+		<hr>
+		<p class="info">
+			Thriving Cities is a group of unconventional urbanists with a unique understanding of, and approach to, cities.
+			Thriving Cities is committed to helping scholars, foundations, city officials, religious leaders, politicians, business people, nonprofits, and residents alike answer the question, what does it mean and take to thrive in my city and how can I contribute?
+		</p>
+	</div>
 
-	<!-- MAKE SURE TO ADD THE LINK TO A VIDEO -->
-	<iframe src="https://www.youtube.com/embed/5F7c28Ye-Fg" allow="autoplay; encrypted-media" allowfullscreen class="iframeclass"></iframe>
+
+	<!-- MAKE SURE TO Change THE LINK TO A VIDEO -->
+	<iframe src="https://www.youtube.com/embed/5F7c28Ye-Fg?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen class="iframeclass"></iframe>
+
 	<iframe src="" allow="autoplay; encrypted-media" allowfullscreen class="iframeclass"></iframe>
 
-	<!-- Adding background image to the cards -->
+	<!-- Changeing background image to the cards -->
 	<div class="imagebgcards">
 
-		<div class="Allcards"><!-- Combination of all Cards -->
-
+		<div class="Allcards" align="center"><!-- Combination of all Cards -->
+			<p id="eventhead">EVENTS</p>
+			<hr>
 			<div class="card" style="width: 18rem;">
 				<img class="card-img-top" src="Assets/Images/Events/3.jpg" alt="Card image cap"><!-- Image of the Event -->
 				<div class="card-body">
@@ -85,11 +98,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							      </ul>		
+							      <p id="event1"></p>		      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -124,11 +138,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>	
+							    <p id="event2"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event2-->		      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -163,11 +178,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>	
+							    <p id="event3"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event3-->			      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -202,11 +218,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>		
+							    <p id="event4"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event4-->		      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -242,11 +259,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>	
+							    <p id="event5"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event5-->			      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -281,11 +299,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							      </ul>
+							      <p id="event6"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event6-->				      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -320,11 +339,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>
+							    <p id="event7"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event7-->				      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -359,11 +379,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>
+							    <p id="event8"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event8-->				      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -398,11 +419,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>
+							    <p id="event9"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event9-->				      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -438,11 +460,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>	
+							    <p id="event10"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event10-->			      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -477,11 +500,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							      </ul>	
+							    <p id="event11"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event11-->			      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -516,11 +540,12 @@
 							        <li>Date :</li>
 							        <li>Venue :</li>
 							        <li>About....</li>
-							      </ul>				      
+							    </ul>
+							    <p id="event12"></p><!--MAKE SURE TO Change THE DATE IN ASSETS/JS/SCRIPT.JS IN event12-->				      
 							  </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						        <button type="button" class="btn btn-primary">Save changes</button>
+						        
 						      </div>
 							</div><!-- END OF MODEL CONTENT DIVISION -->
 					    </div><!-- END OF MODEL DIALOG CONTENT -->
@@ -531,30 +556,22 @@
 		</div><!-- END OF ALL CARDS DIV -->
 	</div><!-- END OF Background image DIVISION -->
 
-		<footer><!-- FOOTER -->
-			<div class="overlaycontainer"><!-- SOCIAL BAR -->
-				<img src="Assets/Images/Nature/1.jpg" alt="Overlay image" class="image">
-				<div class="middle">
-					<div class="overlaytext">
-						Reach Us Through :
-						<h2>
-							<a href="https://twitter.com/@thriving_cities" target="_blank"><i class="fab fa-twitter-square"></i> : @thriving_cities</a>
-						</h2>
-						<h2>
-							<a href="https://fb.me/thrivingcities" target="_blank"><i class="fab fa-facebook-square"></i> : thrivingcities</a>
-						</h2>
-						Subscribe To Our Newsletter..<br> Receive Updates On these Events Through Our<br>
-						<a href="http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a"><i style="font-size:2em" class="far fa-newspaper"></i></a>
-						<br>
-						&copy; All Rights Reserved 2018
-						<br>
-						<img src="Assets/Images/Logo/TC_Mark_Gold_RGB.png">
-						A Thriving Cities Initiative
-						<img src="Assets/Images/Logo/TC_Mark_Black_RGB.png">
-			  		</div>
-		  		</div>
-			</div>
-		</div>
+	<footer id="myFooter">
+        <div class="container">
+            <ul>
+                <li><a href="http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a">Contact us</a></li>
+                <!-- MAKE SURE TO UPDATE THIS LINK AS WELL -->
+                <li><a href="#">Terms of service</a></li>
+            </ul>
+        <p class="footer-copyright">&copy; Copyright 2018</p>
+        </div>
+        <div class="footer-social"><!-- MAKE SURE TO UPDATE THESE LINKS -->
+            <a href="https://www.facebook.com/thrivingcities" class="social-icons"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icons"><i class="fab fa-google-plus"></i></a>
+            <a href="https://twitter.com/thriving_cities" class="social-icons"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
 	<script type="text/javascript" src="Assets/JS/script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
