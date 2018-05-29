@@ -17,19 +17,39 @@
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 	<link rel="stylesheet" href="Assets/CSS/Footer-white.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/w3.css">
 
 	<!-- LINKING FAVICON -->
 	<link rel="shortcut icon" href="http://thrivingcities.com/sites/all/themes/thrivingcities/favicon.ico" type="image/vnd.microsoft.icon">
 
 	<!-- Font Google -->
 	<link href="https://fonts.googleapis.com/css?family=Kavivanar|Lobster|Indie+Flower|Permanent+Marker|Gloria+Hallelujah" rel="stylesheet">
+
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 </head>
 <body>
+	<div class="w3-top">
+	  <div class="w3-bar w3-white w3-card" id="myNavbar">
+	    <a href="#home" class="w3-bar-item w3-button w3-wide">
+	    	<img src="Assets/Images/Logo/TC_Mark_Invert_RGB.png" id="mainlogo">
+	    </a>
+	    <!-- Right-sided navbar links -->
+	    <div class="w3-right w3-hide-small">
+	      <a href="#maincontent" class="w3-bar-item w3-button">ABOUT</a>
+	      <a href="#Allcards" class="w3-bar-item w3-button">EVENTS</a>
+	      <a href="#myFooters" class="w3-bar-item w3-button">CONTACT</a>
+	    </div>
+	    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+	    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+	      <i class="fa fa-bars"></i>
+	    </a>
+	  </div>
+	</div>	
 	<!-- Landing Page -->
-	<header class="landing text-center text-white d-flex">
+	<header class="landing text-center text-white d-flex" id="home">
 		<div class="container my-auto">
 			<div class="row head">
 				<div class="col-lg-12 my-auto animated bounceInRight">
@@ -48,7 +68,8 @@
 		</div>
 	</header>
 	<br>
-	<div class="maincontent">
+	<div id="maincontent">
+		<br>
 		<img src="Assets/Images/Logo/TC_Mark_Gold_RGB.png" class="infoimg">
 		<hr>
 		<p class="info">
@@ -65,7 +86,9 @@
 	<!-- Changing background image to the cards -->
 	<div class="imagebgcards">
 
-		<div class="Allcards" align="center"><!-- Combination of all Cards -->
+		<div id="Allcards" align="center" class="animated"><!-- Combination of all Cards -->
+			<br>
+			<br>
 			<p id="eventhead">EVENTS</p>
 			<hr>
 			<div class="card" style="width: 18rem;">

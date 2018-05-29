@@ -71,7 +71,7 @@ hr{
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.Allcards{
+#Allcards{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -88,8 +88,12 @@ hr{
   text-align: center;
   display:inline;
 }
-.maincontent{
+#maincontent{
   background-color: #e6b324;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 2%;
+  border :15px solid #e6b324;
 }
 #eventhead{
   text-align: center;
@@ -99,4 +103,8 @@ hr{
 }
 #event1,#event2,#event3,#event4,#event5,#event6,#event7,#event8,#event9,#event10,#event11,#event12{
   font-family: 'Gloria Hallelujah', cursive;
+}
+#mainlogo{
+  width: 20px;
+  height: 30px;
 }
