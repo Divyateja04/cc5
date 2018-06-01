@@ -1,5 +1,6 @@
 #myFooter{
     padding-top:32px;
+    background-color: white;
 }
 
 #myFooter .container{
@@ -9,9 +10,7 @@
 #myFooter .footer-copyright{
     margin-bottom: 35px;
     text-align: center;
-    color: #777;
 }
-
 #myFooter ul{
     list-style-type: none;
     padding: 0;
@@ -35,6 +34,12 @@
     padding-bottom: 25px;
     background-color: #eee;
 }
+#myFooter .footer-social-transparent{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: transparent;
+}
 
 #myFooter .fa{
     margin-right: 15px;
@@ -52,26 +57,54 @@
 }
 
 #myFooter .fa-facebook:hover{
-   color: #2b55ff;
+   color: #3b5998;
 }
-
 #myFooter .fa-facebook:focus{
-    color: #2b55ff; 
+    color: #3b5998; 
 }
 
 #myFooter .fa-google-plus:hover{
     color:red;
 }
-
 #myFooter .fa-google-plus:focus{
     color:red;
 }
 
 #myFooter .fa-twitter:hover{
     color: #00aced;
-
 }
-
 #myFooter .fa-twitter:focus{
     color:#00aced;
+}
+
+#myFooter .fa-medium:hover{
+    color:#fff;
+}
+
+#myFooter .fa-instagram:hover{
+    color:#fb3958;
+}
+#myFooter .fa-instagram:focus{
+    color:#fb3958;
+}
+
+#myFooter .fa-pinterest:hover{
+    color:#cb2027;
+}
+#myFooter .fa-pinterest:focus{
+    color:#cb2027;
+}
+
+#myFooter .fa-linkedin:hover{
+    color:#007bb5;
+}
+#myFooter .fa-linkedin:focus{
+    color:#007bb5;
+}
+
+#myFooter .fa-behance-square:hover{
+    color:#1769ff;
+}
+#myFooter .fa-behance-square:focus{
+    color:#1769ff;
 }
